@@ -1,0 +1,14 @@
+.chart {
+    height: 400px;
+    max-width: 2000px;
+    min-width: 1200px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 800px) {
+  .chart {
+    min-width: 800px;
+    max-width: 1200px;
+  }
+}

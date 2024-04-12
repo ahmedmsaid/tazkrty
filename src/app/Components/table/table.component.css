@@ -1,0 +1,157 @@
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+.card {
+    background: #fff;
+    padding: 5px 5px 0 5px;
+}
+
+th, tr, td {
+    text-align: center;
+}
+
+th {
+    color: #ABAAB1;
+    background: #E3E4E9;
+
+}
+
+th > svg {
+    color: black !important;
+    cursor: pointer;
+}
+
+#indexCols {
+    color: #ABAAB1;
+}
+
+/* .ui-paginator-footer {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+} */
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination > li {
+    display: inline;
+    color: white;
+    list-style: none;
+    margin: 0 5px;
+
+}
+
+.pagination > li > a {
+    text-decoration: none;
+    background: #fff;
+    padding: 10px 14px;
+    color: #7E8299;
+    border-radius: 3px;
+}
+
+.pagination > li > a:active {
+    color: #fff;
+    background: #8a74f9;
+}
+
+select {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+#pdf > * {
+    margin: 0 8px;
+}
+
+#pdf > i {
+    border: 1px solid#8a74f9;
+    padding: 1px 4px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#pdf > i:first-child {
+    background: #8A74F91A;
+    border: none;
+    padding: 8px;
+}
+
+#pdf > i:last-child {
+    margin-right: 35px;
+}
+
+#pdf > p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-top: 4px;
+}
+
+#phone {
+    font-size: 0.8rem;
+    color: #92A1AD;
+}
+
+#avatar {
+    position: relative;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    background: #038CB7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -13px;
+    color: #fff;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    right: -13px;
+}
+
+.sort {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 800px) {
+    * {
+        font-size: 0.7em;
+    }
+
+    #pdf > p {
+        font-size: 0.8em;
+    }
+
+}
+
+@media screen and (max-width: 1265px) {
+    * {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .image {
+        width: 30px;
+        height: 30px;
+    }
+    .avatar {
+        width: 30px;
+        height: 30px;
+    }
+}

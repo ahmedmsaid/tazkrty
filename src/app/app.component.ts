@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'tazkty';
+  title = 'tazkrty';
+  value!: string;
+  checked: boolean = true;
 }

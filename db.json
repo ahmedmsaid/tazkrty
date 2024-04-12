@@ -1,0 +1,82 @@
+{
+  "tickets": [
+    {
+      "id": "123568",
+      "ticketNum": "C-101",
+      "firstName": "أحمد",
+      "lastName": "محمود",
+      "phone": "0123456789",
+      "avatar": "",
+      "price": 40,
+      "cinema": "سينما مصر, مول العرب, برج الأطنان, سرايا القبة",
+      "numOfPeople": 1,
+      "quantity": 1,
+      "pdf": ""
+    },
+    {
+      "id": "659721",
+      "ticketNum": "C-102",
+      "firstName": "محمد",
+      "lastName": "الغريب",
+      "phone": "0123456789",
+      "avatar": "assets/pic2.jpg",
+      "price": 30,
+      "cinema": "سينما مصر, مول العرب, برج الأطنان, سرايا القبة",
+      "numOfPeople": 1,
+      "quantity": 1,
+      "pdf": ""
+    },
+    {
+      "id": "268966",
+      "ticketNum": "C-102",
+      "firstName": "محمد",
+      "lastName": "الغريب",
+      "phone": "0123456789",
+      "avatar": "assets/pic1.jpg",
+      "price": 45,
+      "cinema": "سينما مصر, مول العرب, برج الأطنان, سرايا القبة",
+      "numOfPeople": 1,
+      "quantity": 1,
+      "pdf": ""
+    },
+    {
+      "id": "654986",
+      "ticketNum": "C-103",
+      "firstName": "مصطفى",
+      "lastName": "حجازي",
+      "phone": "0123456789",
+      "avatar": "",
+      "price": 54,
+      "cinema": "سينما مصر, مول العرب, برج الأطنان, سرايا القبة",
+      "numOfPeople": 1,
+      "quantity": 1,
+      "pdf": ""
+    },
+    {
+      "id": "307201",
+      "ticketNum": "C-103",
+      "firstName": "أحمد",
+      "lastName": "سعيد",
+      "phone": "01069267343",
+      "avatar": "assets/pic3.jpg",
+      "price": 100,
+      "cinema": "سينما مصر, مول العرب, برج الأطنان, سرايا القبة",
+      "numOfPeople": 1,
+      "quantity": 3,
+      "pdf": ""
+    },
+    {
+      "id": "654986",
+      "ticketNum": "C-103",
+      "firstName": "محمد",
+      "lastName": "الغريب",
+      "phone": "0123456789",
+      "avatar": "",
+      "price": 54,
+      "cinema": "سينما مصر, مول العرب, برج الأطنان, سرايا القبة",
+      "numOfPeople": 1,
+      "quantity": 1,
+      "pdf": ""
+    }
+  ]
+}
